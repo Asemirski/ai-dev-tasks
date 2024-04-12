@@ -1,4 +1,4 @@
-from task_helpers import TaskHelper
+from modules.task_helper.task_helper import TaskHelper
 
 task_helper = TaskHelper()
 token = task_helper.auth("helloapi")

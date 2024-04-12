@@ -1,4 +1,4 @@
-from task_helpers import TaskHelper
+from modules.task_helper.task_helper import TaskHelper
 from qdrant_client import QdrantClient
 from qdrant_client.models import VectorParams, Distance, PointStruct
 from openai import OpenAI

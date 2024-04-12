@@ -3,9 +3,9 @@ import json
 
 class TaskHelper:
     # Next time use os to read env vars instead storing them here.
-    BASE_URL = "XXXXX"
-    API_KEY = "XXXXX"
-    OPENAI_API_KEY = "XXXXXX"
+    BASE_URL = 'xxx'
+    API_KEY = 'xxx'
+    OPENAI_API_KEY = 'xxx'
 
     def __init__(self):
         self.base_url = TaskHelper.BASE_URL

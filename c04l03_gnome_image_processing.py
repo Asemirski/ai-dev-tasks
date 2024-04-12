@@ -1,4 +1,4 @@
-from task_helpers import TaskHelper
+from modules.task_helper.task_helper import TaskHelper
 from openai import OpenAI
 
 # Rozwiąż zadanie API o nazwie ‘gnome’. Backend będzie zwracał Ci linka do obrazków przedstawiających gnomy/skrzaty.

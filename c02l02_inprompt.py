@@ -1,4 +1,4 @@
-from task_helpers import TaskHelper
+from modules.task_helper.task_helper import TaskHelper
 from openai import OpenAI
 
 # Skorzystaj z API COURSE_API, aby pobrać dane zadania inprompt.

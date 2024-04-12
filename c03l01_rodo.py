@@ -1,4 +1,4 @@
-from task_helpers import TaskHelper
+from modules.task_helper.task_helper import TaskHelper
 from openai import OpenAI
 
 # Wykonaj zadanie API o nazwie rodo. W jego treści znajdziesz wiadomość od Rajesha,

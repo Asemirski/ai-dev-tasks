@@ -1,4 +1,4 @@
-from task_helpers import TaskHelper
+from modules.task_helper.task_helper import TaskHelper
 
 #  Zadanie polega na zdefiniowaniu funkcji o nazwie addUser, która przyjmuje jako parametr obiekt z
 # właściwościami: imię (name, string), nazwisko (surname, string) oraz rok urodzenia osoby (year, integer).

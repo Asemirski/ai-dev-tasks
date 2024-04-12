@@ -1,4 +1,4 @@
-from task_helpers import TaskHelper
+from modules.task_helper.task_helper import TaskHelper
 from openai import OpenAI
 
 # Korzystając z modelu text-embedding-ada-002 wygeneruj embedding dla frazy Hawaiian pizza —upewnij się, że to dokładnie to zdanie.
